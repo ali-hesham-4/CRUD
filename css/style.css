@@ -1,0 +1,85 @@
+/* G L O B  A L   S T Y L I N G  */
+body{
+    background-color: #f7ecde;
+}
+
+h1{
+    font-size: 50px;
+    position: relative;
+    font-family: "Pacifico", cursive;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+h1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 0;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+}
+
+h1:hover::before{
+    height: 60%;
+}
+
+
+h2{
+    font-family: "Righteous", cursive;
+}
+
+header .title{
+    border-bottom:dotted 2px;
+}
+
+.heading{
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+    margin: auto;
+}
+
+
+/* S T A R T      F O R M      */
+
+form{
+    border-bottom:dotted 2px;
+}
+
+form button{
+    background-color: #d1512d;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #bb4120;
+}
+
+/* E N D       F O R M       */
+
+
+/* S T A R T   T A B L E       */
+
+table .btn-visit{
+    background-color: #9eb23b;
+}
+
+table .btn-visit:hover{
+    background-color: #8a9e23;
+}
+
+table .btn-delete{
+    background-color: #eb1d36;
+}
+table .btn-delete:hover{
+    background-color: #d30820;
+}
+
+/* E N D   T A B L E       */
